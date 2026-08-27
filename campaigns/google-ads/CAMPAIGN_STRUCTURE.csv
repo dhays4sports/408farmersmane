@@ -1,0 +1,7 @@
+campaign,ad_group,landing_page,match_strategy
+CF-DISP | Safeco-Liberty | CA,Safeco Nonrenewal,https://coveragefit.com/nonrenewal/safeco/,Exact + Phrase
+CF-DISP | Safeco-Liberty | CA,Safeco Condo,https://coveragefit.com/nonrenewal/safeco/,Exact + Phrase
+CF-DISP | Safeco-Liberty | CA,Liberty Mutual Nonrenewal,https://coveragefit.com/nonrenewal/safeco/,Exact + Phrase
+CF-DISP | Generic Nonrenewal | CA,Home Nonrenewal,https://coveragefit.com/nonrenewal/,Exact + Phrase
+CF-DISP | Generic Nonrenewal | CA,Condo Nonrenewal,https://coveragefit.com/nonrenewal/,Exact + Phrase
+CF-DISP | Generic Nonrenewal | CA,Insurance After Dropped,https://coveragefit.com/nonrenewal/,Exact + Phrase

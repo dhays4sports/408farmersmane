@@ -1,0 +1,3 @@
+campaign,network,location,location_option,language,initial_daily_budget,bidding_initial,search_partners,display_network,notes
+CF-DISP | Safeco-Liberty | CA,Google Search,California,Presence: people in or regularly in California,English,$30/day,Maximize Clicks with conservative CPC guardrail until qualified conversion volume exists,OFF,OFF,Carrier displacement high-intent test
+CF-DISP | Generic Nonrenewal | CA,Google Search,California,Presence: people in or regularly in California,English,$15/day,Maximize Clicks with conservative CPC guardrail until qualified conversion volume exists,OFF,OFF,Generic forced-shopper discovery test

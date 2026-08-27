@@ -1,0 +1,28 @@
+{
+  "sprint": "TECH-PVX-1.10",
+  "campaign_id": "occupation_tech_meta_v1",
+  "location": "Puesto Santa Clara",
+  "channel": "windshield_card",
+  "canonical_urls": {
+    "a": "https://408farmers.com/tech/?campaign_id=occupation_tech_meta_v1&campaign_variant=puesto_a&utm_source=puesto&utm_medium=windshield_card&utm_campaign=santa_clara_tech&utm_content=variant_a",
+    "b": "https://408farmers.com/tech/?campaign_id=occupation_tech_meta_v1&campaign_variant=puesto_b&utm_source=puesto&utm_medium=windshield_card&utm_campaign=santa_clara_tech&utm_content=variant_b",
+    "c": "https://408farmers.com/tech/?campaign_id=occupation_tech_meta_v1&campaign_variant=puesto_c&utm_source=puesto&utm_medium=windshield_card&utm_campaign=santa_clara_tech&utm_content=variant_c"
+  },
+  "milestones": [
+    "landing_viewed",
+    "role_selected",
+    "housing_selected",
+    "early_capture_presented",
+    "early_lead_confirmed",
+    "early_capture_skipped",
+    "coveragefit_started",
+    "snapshot_completed",
+    "contact_requested"
+  ],
+  "analytics_privacy": {
+    "pii": false,
+    "free_text": false,
+    "bounded_values_only": true
+  },
+  "professional_boundary": "Customer-selected technology role is context only; producer and carrier verification are required."
+}

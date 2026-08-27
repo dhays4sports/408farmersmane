@@ -1,0 +1,38 @@
+campaign,ad_group,match_type,keyword
+CF-DISP | Safeco-Liberty | CA,Safeco Nonrenewal,exact,[safeco nonrenewal california]
+CF-DISP | Safeco-Liberty | CA,Safeco Nonrenewal,phrase,"safeco nonrenewal california"
+CF-DISP | Safeco-Liberty | CA,Safeco Nonrenewal,exact,[safeco non renewal california]
+CF-DISP | Safeco-Liberty | CA,Safeco Nonrenewal,phrase,"safeco insurance not renewing"
+CF-DISP | Safeco-Liberty | CA,Safeco Nonrenewal,exact,[safeco homeowners nonrenewal]
+CF-DISP | Safeco-Liberty | CA,Safeco Nonrenewal,phrase,"safeco home insurance nonrenewal"
+CF-DISP | Safeco-Liberty | CA,Safeco Nonrenewal,exact,[insurance after safeco nonrenewal]
+CF-DISP | Safeco-Liberty | CA,Safeco Nonrenewal,phrase,"replacement insurance after safeco"
+CF-DISP | Safeco-Liberty | CA,Safeco Condo,exact,[safeco condo nonrenewal]
+CF-DISP | Safeco-Liberty | CA,Safeco Condo,phrase,"safeco condo nonrenewal"
+CF-DISP | Safeco-Liberty | CA,Safeco Condo,exact,[safeco condo insurance nonrenewal]
+CF-DISP | Safeco-Liberty | CA,Safeco Condo,phrase,"safeco dropping condo insurance"
+CF-DISP | Safeco-Liberty | CA,Safeco Condo,phrase,"safeco condo insurance california"
+CF-DISP | Safeco-Liberty | CA,Liberty Mutual Nonrenewal,exact,[liberty mutual nonrenewal california]
+CF-DISP | Safeco-Liberty | CA,Liberty Mutual Nonrenewal,phrase,"liberty mutual nonrenewal california"
+CF-DISP | Safeco-Liberty | CA,Liberty Mutual Nonrenewal,exact,[liberty mutual condo nonrenewal]
+CF-DISP | Safeco-Liberty | CA,Liberty Mutual Nonrenewal,phrase,"liberty mutual condo nonrenewal"
+CF-DISP | Safeco-Liberty | CA,Liberty Mutual Nonrenewal,phrase,"liberty mutual not renewing insurance"
+CF-DISP | Generic Nonrenewal | CA,Home Nonrenewal,exact,[home insurance after nonrenewal]
+CF-DISP | Generic Nonrenewal | CA,Home Nonrenewal,phrase,"home insurance after nonrenewal"
+CF-DISP | Generic Nonrenewal | CA,Home Nonrenewal,exact,[homeowners insurance after being dropped]
+CF-DISP | Generic Nonrenewal | CA,Home Nonrenewal,phrase,"homeowners insurance after being dropped"
+CF-DISP | Generic Nonrenewal | CA,Home Nonrenewal,exact,[insurance after nonrenewal california]
+CF-DISP | Generic Nonrenewal | CA,Home Nonrenewal,phrase,"home insurance company dropped me"
+CF-DISP | Generic Nonrenewal | CA,Home Nonrenewal,phrase,"home policy not renewing"
+CF-DISP | Generic Nonrenewal | CA,Home Nonrenewal,phrase,"insurance company won't renew home"
+CF-DISP | Generic Nonrenewal | CA,Condo Nonrenewal,exact,[condo insurance nonrenewal california]
+CF-DISP | Generic Nonrenewal | CA,Condo Nonrenewal,phrase,"condo insurance nonrenewal california"
+CF-DISP | Generic Nonrenewal | CA,Condo Nonrenewal,exact,[condo insurance after nonrenewal]
+CF-DISP | Generic Nonrenewal | CA,Condo Nonrenewal,phrase,"condo policy not renewing"
+CF-DISP | Generic Nonrenewal | CA,Insurance After Dropped,exact,[find home insurance after cancellation]
+CF-DISP | Generic Nonrenewal | CA,Insurance After Dropped,phrase,"find insurance after cancellation california"
+CF-DISP | Generic Nonrenewal | CA,Insurance After Dropped,exact,[homeowners insurance cancelled california]
+CF-DISP | Generic Nonrenewal | CA,Insurance After Dropped,phrase,"need new home insurance after nonrenewal"
+CF-DISP | Generic Nonrenewal | CA,Insurance After Dropped,phrase,"what to do after home insurance nonrenewal"
+CF-DISP | Generic Nonrenewal | CA,Insurance After Dropped,exact,[landlord insurance nonrenewal california]
+CF-DISP | Generic Nonrenewal | CA,Insurance After Dropped,phrase,"rental property insurance nonrenewal"

@@ -1,0 +1,6 @@
+coveragefit_event,google_conversion_action,initial_role,contains_general_analytics_pii,optimization_guidance
+disp_contact_requested,Lead,Secondary,No,Observe volume and quality; do not optimize solely to raw lead count
+producer_conversation_completed,Qualified Lead,Primary when volume supports,No,Preferred first downstream quality signal
+quote_started,Quote Started,Primary/Secondary by volume,No,Strong commercial intent
+quote_delivered,Quote Delivered,Primary/Secondary by volume,No,Deep-funnel quality signal
+policy_bound,Policy Bound,Primary value outcome,No,Ultimate acquisition outcome

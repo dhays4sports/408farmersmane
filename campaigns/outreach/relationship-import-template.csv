@@ -1,0 +1,5 @@
+channel,first_name,organization,location,context,source_url
+hoa,Example Manager,Example HOA Management,"San Jose, CA","Manages condo communities where owners may need a nonrenewal resource.",
+realtor,Example Realtor,Example Realty,"Campbell, CA","Works with condo buyers and sellers; potential referral relationship.",
+property_manager,Example PM,Example Property Management,"Sunnyvale, CA","Manages rental properties and may encounter carrier nonrenewals.",
+existing_network,Example Contact,,"Santa Clara County, CA","Existing professional contact who may know homeowners dealing with nonrenewals.",

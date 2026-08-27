@@ -1,0 +1,58 @@
+{
+  "release": "CF-408-IDENTITY-SYNC-1.0",
+  "coveragefit_version": "3.20.204",
+  "status": "production_ready",
+  "certified_at": "2026-08-27T21:37:49Z",
+  "baseline": {
+    "filename": "CoverageFit_v3.20.203_RC-SMS-1.9.7_408FARMERS_HOME_AUTO_LIFE_BUSINESS_INTAKE_PRODUCTION_READY_ROOT_DEPLOYABLE(1).zip",
+    "sha256": "29a8d7df8e5986c1ac9e4ea6bcf9863b4487b1eb4277a9bec0269245a508d6ee"
+  },
+  "upstream": {
+    "release": "408-IDENTITY-1.10",
+    "archive_sha256": "4f9c8a33d40a986a6ad834ee68f1201e98b5da5c4d2b19158351142f157db3b4"
+  },
+  "automated_results": {
+    "node_tests": { "passed": 55, "failed": 0 },
+    "embedded_certification_checks": { "passed": 184, "failed": 0 },
+    "cross_repository_contract_tests": { "passed": 9, "failed": 0 },
+    "internal_link_references": { "checked": 761, "missing": 0 },
+    "javascript_syntax": "pass"
+  },
+  "certified_interfaces": {
+    "sms_entry_points": ["HOME", "AUTO", "LIFE", "BUSINESS"],
+    "secure_bootstrap": "https://review.408farmers.com/api/pvx/web-bootstrap",
+    "tech_pvx": "TECH-PVX-1.10",
+    "sms_runtime": "RC-SMS-1.9.7",
+    "identity_contract": "408-IDENTITY-1.10",
+    "identity_sync_build": "CF-408-IDENTITY-SYNC-1.0"
+  },
+  "truth_boundaries": {
+    "408FARMERS_is_consumer_entity": false,
+    "408_FARMERS_is_contact_mnemonic": true,
+    "408farmers_com_is_acquisition_domain": true,
+    "phone_implies_sms_permission": false,
+    "professional_role_implies_eligibility": false,
+    "identity_merge_by_contact_match": false,
+    "bind_authority_introduced": false
+  },
+  "protected_components": {
+    "unchanged_against_baseline": [
+      "server/sms-consent-core.mjs",
+      "server/sms-consent-api-core.mjs",
+      "server/sms-outbound-gateway.mjs",
+      "server/sms-orchestrator-core.mjs",
+      "server/cloudflare-rate-limit.mjs",
+      "server/pvx-checkpoint-core.mjs",
+      "server/pvx-unified-producer-record-core.mjs",
+      "server/pvx-privacy-retention.mjs",
+      "server/runtime-crypto.mjs",
+      "functions/api/pvx/web-bootstrap.js",
+      "functions/api/sms/ringcentral/webhook.js",
+      "functions/api/sms/send.js"
+    ]
+  },
+  "limitations": [
+    "A local Chromium binary was unavailable. The inherited source-level mobile/accessibility/performance certification passed 15/15; deployment canaries require representative-device verification."
+  ],
+  "release_blockers": []
+}

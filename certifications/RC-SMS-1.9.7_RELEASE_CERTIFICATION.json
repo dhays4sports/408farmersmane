@@ -1,0 +1,77 @@
+{
+  "certification_id": "RC-SMS-1.9.7-ENTRY-POINT-INTAKE",
+  "coveragefit_version": "3.20.203",
+  "baseline": {
+    "filename": "CoverageFit_v3.20.202_TECH-PVX-1.10_DEPLOYMENT_SLIM_ROOT_CRITICAL_ONLY(1).zip",
+    "sha256": "3644cd55464991c0aa2906c6959ba31b524fdf7d82b6d377fdd967ff9117967c"
+  },
+  "status": "production_ready_application_release",
+  "live_activation_status": "deployment_and_carrier_canary_required",
+  "release_blocking_automated_gates": {
+    "focused_sms_entry_points": {
+      "passed": 11,
+      "failed": 0
+    },
+    "complete_slim_repository_suite": {
+      "passed": 46,
+      "failed": 0
+    },
+    "tech_pvx_1_0": {
+      "passed": 5,
+      "failed": 0
+    },
+    "tech_pvx_1_10": {
+      "passed": 14,
+      "failed": 0
+    },
+    "cross_repository_message_contract": "passed",
+    "module_syntax_and_import_graph": "passed",
+    "archive_integrity": "passed"
+  },
+  "entry_points": {
+    "home": {
+      "recognized": true,
+      "automated_intake": true,
+      "secure_home_handoff": true
+    },
+    "auto": {
+      "recognized": true,
+      "automated_intake": true,
+      "producer_ready_handoff": true,
+      "home_pvx_entry": false
+    },
+    "life": {
+      "recognized": true,
+      "automated_intake": true,
+      "producer_ready_handoff": true,
+      "home_pvx_entry": false
+    },
+    "business": {
+      "recognized": true,
+      "automated_intake": true,
+      "producer_ready_handoff": true,
+      "home_pvx_entry": false
+    }
+  },
+  "certified_boundaries": {
+    "stop_suppression_authoritative": true,
+    "provider_suppression_authoritative": true,
+    "producer_ownership_preserved": true,
+    "duplicate_webhook_suppressed": true,
+    "outbound_retry_architecture_preserved": true,
+    "no_call_or_email_permission_inferred": true,
+    "no_marketing_sms_permission_inferred_from_phone_only": true,
+    "no_quote_or_bind_authorization_inferred": true,
+    "no_eligibility_underwriting_or_savings_inferred": true,
+    "producer_email_excludes_phone_and_transcript": true,
+    "tech_pvx_1_10_regression_safe": true
+  },
+  "external_dependencies": [
+    "Deploy CoverageFit v3.20.203 to review.408farmers.com.",
+    "Deploy the synchronized 408FARMERS text-link package.",
+    "Preserve the existing D1/store and RingCentral runtime bindings.",
+    "Verify RINGCENTRAL_FROM_NUMBER is +14083276377.",
+    "Verify the live RingCentral webhook subscription and carrier delivery with production canaries."
+  ],
+  "known_non_blocking_boundary": "The application is certified; final live sender assignment and carrier behavior cannot be certified from an offline archive."
+}
