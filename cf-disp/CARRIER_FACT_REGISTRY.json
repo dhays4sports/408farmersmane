@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0",
+  "build": "CF-DISP-0.2",
+  "reviewedAt": "2026-08-24",
+  "carriers": {
+    "safeco": {
+      "canonicalName": "Safeco",
+      "group": "Liberty Mutual Group",
+      "aliases": [
+        "Safeco Insurance Company of America",
+        "Safeco Insurance Company of Illinois"
+      ],
+      "campaignStatus": "active",
+      "facts": [
+        {
+          "id": "ca_ho6_legacy_withdrawal",
+          "claim": "Safeco companies ceased new legacy HO-6 condominium business in California effective 2025-01-01 and began nonrenewing existing legacy HO-6 policies effective 2026-01-01.",
+          "effectiveDates": [
+            "2025-01-01",
+            "2026-01-01"
+          ],
+          "source": "California Department of Insurance 2024 Annual Report",
+          "sourceUrl": "https://www.insurance.ca.gov/0400-news/0200-studies-reports/0700-commissioner-report/upload/2024-Annual-Report-of-the-Commissioner.pdf"
+        },
+        {
+          "id": "brand_retirement",
+          "claim": "Liberty Mutual retired the Safeco brand effective 2026-04-25 and stated that existing policies were not impacted by the name change.",
+          "effectiveDates": [
+            "2026-04-25"
+          ],
+          "source": "Liberty Mutual Insurance Retires Safeco Brand",
+          "sourceUrl": "https://www.libertymutualgroup.com/about-lm/news/articles/liberty-mutual-insurance-retires-safeco-brand"
+        }
+      ],
+      "allowedPublicClaims": [
+        "Documented legacy HO-6 condo program withdrawal in California",
+        "Safeco brand retired into Liberty Mutual",
+        "Brand transition itself did not cancel existing policies"
+      ],
+      "forbiddenUnsupportedClaims": [
+        "Safeco is leaving California",
+        "Farmers will replace your coverage",
+        "You qualify",
+        "Your rate will be lower",
+        "Your home is eligible"
+      ],
+      "seoStatus": "active",
+      "paidSearchStatus": "active"
+    }
+  },
+  "governance": {
+    "requiresSourceReviewBeforePublication": true,
+    "automaticPublishing": false,
+    "automaticCarrierCampaignActivation": false
+  }
+}
