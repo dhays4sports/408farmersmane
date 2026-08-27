@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "build": "CF-DISP-4.2",
+  "pages": [
+    {
+      "path": "/nonrenewal/",
+      "type": "hub",
+      "status": "indexable",
+      "intent": "carrier-neutral property insurance nonrenewal"
+    },
+    {
+      "path": "/nonrenewal/safeco/",
+      "type": "carrier-guide",
+      "status": "indexable",
+      "intent": "Safeco / Liberty Mutual California nonrenewal",
+      "factRegistryIds": [
+        "ca_ho6_legacy_withdrawal",
+        "brand_retirement"
+      ]
+    }
+  ],
+  "candidateTopics": [
+    {
+      "theme": "safeco roof nonrenewal",
+      "status": "measure-before-authoring"
+    },
+    {
+      "theme": "safeco condo nonrenewal",
+      "status": "measure-before-authoring"
+    },
+    {
+      "theme": "home insurance after nonrenewal",
+      "status": "measure-before-authoring"
+    },
+    {
+      "theme": "insurance after being dropped",
+      "status": "measure-before-authoring"
+    }
+  ],
+  "automaticPublishing": false,
+  "requiresEditorialApproval": true
+}
