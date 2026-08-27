@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-2.1",
+  "title": "Value-First Contact Checkpoint + Consent",
+  "baseVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "status": "complete",
+  "completedAt": "2026-08-24",
+  "implementationFiles": [
+    "nonrenewal/index.html",
+    "nonrenewal/safeco/index.html",
+    "assets/js/displacement-intake.js",
+    "server/pvx-checkpoint-core.mjs"
+  ]
+}

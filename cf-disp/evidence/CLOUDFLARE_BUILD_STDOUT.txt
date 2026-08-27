@@ -1,0 +1,4 @@
+
+> coveragefit@3.20.200 cloudflare:functions:build
+> wrangler pages functions build --outdir=.cloudflare/functions-dist
+

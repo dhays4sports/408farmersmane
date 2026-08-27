@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-3.2",
+  "title": "Google Search Campaign Launch Kit",
+  "baseVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "status": "complete",
+  "completedAt": "2026-08-24",
+  "implementationFiles": [
+    "campaigns/google-ads/CAMPAIGN_STRUCTURE.csv",
+    "campaigns/google-ads/KEYWORDS.csv",
+    "campaigns/google-ads/NEGATIVE_KEYWORDS.txt",
+    "campaigns/google-ads/RSA_COPY.csv",
+    "campaigns/google-ads/GOOGLE_ADS_LAUNCH_RUNBOOK.md",
+    "campaigns/google-ads/CAMPAIGN_SETTINGS.csv",
+    "campaigns/google-ads/SITELINKS_CALLOUTS.csv",
+    "campaigns/google-ads/CONVERSION_MAP.csv",
+    "campaigns/google-ads/UTM_CONVENTIONS.md",
+    "campaigns/google-ads/SEARCH_TERM_REVIEW_TEMPLATE.csv",
+    "campaigns/google-ads/LAUNCH_CHECKLIST.md"
+  ]
+}

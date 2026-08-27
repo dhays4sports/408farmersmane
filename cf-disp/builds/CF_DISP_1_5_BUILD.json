@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-1.5",
+  "title": "Immediate Displacement Snapshot + Zero-Repeat PVX Bridge",
+  "baseVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "status": "complete",
+  "completedAt": "2026-08-24",
+  "implementationFiles": [
+    "assets/js/displacement-context.js",
+    "assets/js/pvx-checkpoint.js",
+    "assets/js/pvx-checkpoint-view.js",
+    "server/pvx-checkpoint-core.mjs",
+    "assets/js/assessment-engine.js"
+  ]
+}

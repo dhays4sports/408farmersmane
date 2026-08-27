@@ -1,0 +1,158 @@
+{
+  "suite": "CF-DISP final acceptance E2E",
+  "tests": 30,
+  "passed": 30,
+  "failed": 0,
+  "results": [
+    {
+      "acceptance": "1 direct generic nonrenewal entry",
+      "pass": true,
+      "evidence": "route"
+    },
+    {
+      "acceptance": "2 Safeco paid-search-style entry",
+      "pass": true,
+      "evidence": "route + click attribution"
+    },
+    {
+      "acceptance": "3 Safeco organic entry",
+      "pass": true,
+      "evidence": "canonical + useful content"
+    },
+    {
+      "acceptance": "4 unknown carrier entry",
+      "pass": true,
+      "evidence": "carrier registry"
+    },
+    {
+      "acceptance": "5 actual nonrenewal",
+      "pass": true,
+      "evidence": "context runtime"
+    },
+    {
+      "acceptance": "6 cancellation",
+      "pass": true,
+      "evidence": "context runtime"
+    },
+    {
+      "acceptance": "7 anticipatory concern",
+      "pass": true,
+      "evidence": "context runtime"
+    },
+    {
+      "acceptance": "8 comparison-only visitor",
+      "pass": true,
+      "evidence": "context runtime"
+    },
+    {
+      "acceptance": "9 short-deadline customer",
+      "pass": true,
+      "evidence": "runtime urgency"
+    },
+    {
+      "acceptance": "10 future-deadline customer",
+      "pass": true,
+      "evidence": "runtime urgency"
+    },
+    {
+      "acceptance": "11 value before contact",
+      "pass": true,
+      "evidence": "DOM order"
+    },
+    {
+      "acceptance": "12 no-contact self-service",
+      "pass": true,
+      "evidence": "self-service CTA"
+    },
+    {
+      "acceptance": "13 explicit contact request",
+      "pass": true,
+      "evidence": "explicit checkbox + CTA"
+    },
+    {
+      "acceptance": "14 channel-specific consent",
+      "pass": true,
+      "evidence": "channel consent runtime"
+    },
+    {
+      "acceptance": "15 zero-repeat PVX continuation",
+      "pass": true,
+      "evidence": "PVX prefill"
+    },
+    {
+      "acceptance": "16 Snapshot persistence",
+      "pass": true,
+      "evidence": "checkpoint storage"
+    },
+    {
+      "acceptance": "17 continue later/resume",
+      "pass": true,
+      "evidence": "inherited secure resume surfaces preserved"
+    },
+    {
+      "acceptance": "18 Home Profile continuation",
+      "pass": true,
+      "evidence": "profile hydration + route"
+    },
+    {
+      "acceptance": "19 Policy Review continuation",
+      "pass": true,
+      "evidence": "existing PVX policy route + review context"
+    },
+    {
+      "acceptance": "20 producer record",
+      "pass": true,
+      "evidence": "unified record"
+    },
+    {
+      "acceptance": "21 Workspace displacement context",
+      "pass": true,
+      "evidence": "workspace"
+    },
+    {
+      "acceptance": "22 follow-up",
+      "pass": true,
+      "evidence": "existing queue"
+    },
+    {
+      "acceptance": "23 acquisition attribution",
+      "pass": true,
+      "evidence": "first/session attribution"
+    },
+    {
+      "acceptance": "24 Google conversion-state creation",
+      "pass": true,
+      "evidence": "Data Manager adapter runtime"
+    },
+    {
+      "acceptance": "25 SEO indexability",
+      "pass": true,
+      "evidence": "sitemap/meta/canonical"
+    },
+    {
+      "acceptance": "26 mobile/accessibility",
+      "pass": true,
+      "evidence": "source certification"
+    },
+    {
+      "acceptance": "27 privacy/security",
+      "pass": true,
+      "evidence": "semantic + analytics guardrails"
+    },
+    {
+      "acceptance": "28 protected-hash comparison",
+      "pass": true,
+      "evidence": "hash evidence"
+    },
+    {
+      "acceptance": "29 normalized legacy regression",
+      "pass": true,
+      "evidence": "normalized regression"
+    },
+    {
+      "acceptance": "30 rollback capability",
+      "pass": true,
+      "evidence": "rollback artifact"
+    }
+  ]
+}

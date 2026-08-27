@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-3.1",
+  "title": "Google Ads Measurement + Enhanced Lead Conversion Bridge",
+  "baseVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "status": "complete",
+  "completedAt": "2026-08-24",
+  "implementationFiles": [
+    "server/displacement-conversion-core.mjs",
+    "campaigns/google-ads/GOOGLE_MEASUREMENT_IMPLEMENTATION.md",
+    "campaigns/google-ads/DATA_MANAGER_TEMPLATE.csv"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-5.1",
+  "title": "Accessibility, Performance, Privacy + Security Certification",
+  "baseVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "status": "complete",
+  "completedAt": "2026-08-24",
+  "implementationFiles": [
+    "assets/css/displacement.css",
+    "assets/js/displacement-intake.js",
+    "server/pvx-displacement-core.mjs",
+    "CF_DISP_FOCUSED_QA.mjs"
+  ]
+}

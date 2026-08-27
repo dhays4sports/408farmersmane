@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.0",
+  "rows": [
+    {
+      "path": "assets/js/protection-score.js",
+      "baselineSha256": "0cf3190a5bb99aceb0e527f91268247481fd14e67acd81fb35db3accd8a5f2a8",
+      "finalSha256": "0cf3190a5bb99aceb0e527f91268247481fd14e67acd81fb35db3accd8a5f2a8",
+      "changed": false
+    },
+    {
+      "path": "assets/js/executive-report-engine.js",
+      "baselineSha256": "a2af691118b45aed1adcbfb51b1029dbd9a2679d1a405f94c40bf2bd8e7550f5",
+      "finalSha256": "a2af691118b45aed1adcbfb51b1029dbd9a2679d1a405f94c40bf2bd8e7550f5",
+      "changed": false
+    },
+    {
+      "path": "assets/js/home-recommendation-rules.js",
+      "baselineSha256": "0c4fb83590a2d0f29803f593a6716ba961c49a651542b74d53e01b9e33df4629",
+      "finalSha256": "0c4fb83590a2d0f29803f593a6716ba961c49a651542b74d53e01b9e33df4629",
+      "changed": false
+    },
+    {
+      "path": "assets/js/pvx-readiness-contract.js",
+      "baselineSha256": "b7fcf763d7b3fdf0fda1082284410070df00f487bdccaa52ce00426aaf58db4e",
+      "finalSha256": "b7fcf763d7b3fdf0fda1082284410070df00f487bdccaa52ce00426aaf58db4e",
+      "changed": false
+    },
+    {
+      "path": "assets/js/recommendation-builder.js",
+      "baselineSha256": "0cef67b4249773526c5f69dbdb6cd2c40c954129e15efa4ffbd7ad2f58c6591a",
+      "finalSha256": "0cef67b4249773526c5f69dbdb6cd2c40c954129e15efa4ffbd7ad2f58c6591a",
+      "changed": false
+    },
+    {
+      "path": "assets/js/recommendation-engine.js",
+      "baselineSha256": "0d5973be5455d416c8f2477ce08f327adff0fff91bdb987efe62c6e8e8e6fe18",
+      "finalSha256": "0d5973be5455d416c8f2477ce08f327adff0fff91bdb987efe62c6e8e8e6fe18",
+      "changed": false
+    },
+    {
+      "path": "assets/js/report-engine.js",
+      "baselineSha256": "da603a0aace35e59c35fbc4d8e75395c6f2328fe7fb0df6991e0110ae7e2068b",
+      "finalSha256": "da603a0aace35e59c35fbc4d8e75395c6f2328fe7fb0df6991e0110ae7e2068b",
+      "changed": false
+    },
+    {
+      "path": "server/pvx-readiness-core.mjs",
+      "baselineSha256": "1c6b4976dc9dea23968d28502467a92ded633f41774f632806082532f458f328",
+      "finalSha256": "1c6b4976dc9dea23968d28502467a92ded633f41774f632806082532f458f328",
+      "changed": false
+    },
+    {
+      "path": "server/pvx-resume-core.mjs",
+      "baselineSha256": "d2e7891c807ee3db8db231c19ab55838199aa8385bb32758e0240732ebde30f2",
+      "finalSha256": "d2e7891c807ee3db8db231c19ab55838199aa8385bb32758e0240732ebde30f2",
+      "changed": false
+    },
+    {
+      "path": "server/sms-consent-api-core.mjs",
+      "baselineSha256": "d21e714d278618a025bc32ee43cdc34e7b43c45cefd162dd1e98617aef1d72eb",
+      "finalSha256": "d21e714d278618a025bc32ee43cdc34e7b43c45cefd162dd1e98617aef1d72eb",
+      "changed": false
+    },
+    {
+      "path": "server/sms-consent-core.mjs",
+      "baselineSha256": "9d5efa769df8b8aa670c659787a1756cb07bd8435bb87ec0682eadf19515e586",
+      "finalSha256": "9d5efa769df8b8aa670c659787a1756cb07bd8435bb87ec0682eadf19515e586",
+      "changed": false
+    },
+    {
+      "path": "server/sms-outbound-gateway.mjs",
+      "baselineSha256": "57872a74b983dec98a21b91b82dd6896e6cbecfdaa8a5e5bbc6e18ad26f2efe3",
+      "finalSha256": "57872a74b983dec98a21b91b82dd6896e6cbecfdaa8a5e5bbc6e18ad26f2efe3",
+      "changed": false
+    },
+    {
+      "path": "assets/js/attribution.js",
+      "baselineSha256": "7e8d7514a1eedd57392a17fad6a10425dc7859c3937767126ecaf56dbad0027b",
+      "finalSha256": "fed970b9f81f608519aae23a89627487bfe3fa5a1991ee0ab303a2920740313c",
+      "changed": true
+    },
+    {
+      "path": "assets/js/pvx-checkpoint-view.js",
+      "baselineSha256": "d5e6f08f08fd684f730787b6013ca357142e72fea815ff2146aeffc65bdca939",
+      "finalSha256": "96e75d9d47406decae683a487b3c62cb65c7f87eb7b2ff7ae687e9c6e9bdf289",
+      "changed": true
+    },
+    {
+      "path": "assets/js/pvx-checkpoint.js",
+      "baselineSha256": "2646bc57fbee31963ac58118efe7ff5462b91091dc240781f7be9e2937ad0ffb",
+      "finalSha256": "bdce10c49e0c3351281f8e6a44f025467b75e02ba6afe36753d05c0d973e4d67",
+      "changed": true
+    },
+    {
+      "path": "server/pvx-checkpoint-core.mjs",
+      "baselineSha256": "25f09c5264835bf939dd595cfe64a31fc96f4dd619976fb19d88fafcb87c734c",
+      "finalSha256": "e3868d0a4e4946d8f0d92ffd9def4f5a5c9d1b666e0bcf2349300f243a34d016",
+      "changed": true
+    },
+    {
+      "path": "server/pvx-producer-brief-core.mjs",
+      "baselineSha256": "1dba74cb7f323334733bdb46607d6ee66de10fd557c6967031cc97aea23a83d5",
+      "finalSha256": "792a34640f924b2a4ea4b99e5d7d6b5b2dd463d0cebeca705b9624ff60f008b8",
+      "changed": true
+    },
+    {
+      "path": "server/pvx-unified-producer-record-core.mjs",
+      "baselineSha256": "f91af46e3a14dbe441cf9b620596d62abf8afe412f49d222cb2185fb4850c6ae",
+      "finalSha256": "24300ec02b4a0ae5f9d7168daaa25eebc8cd843afe9b49f622b9e51b9e853a67",
+      "changed": true
+    }
+  ],
+  "changed": [
+    "assets/js/attribution.js",
+    "assets/js/pvx-checkpoint-view.js",
+    "assets/js/pvx-checkpoint.js",
+    "server/pvx-checkpoint-core.mjs",
+    "server/pvx-producer-brief-core.mjs",
+    "server/pvx-unified-producer-record-core.mjs"
+  ],
+  "unchanged": [
+    "assets/js/protection-score.js",
+    "assets/js/executive-report-engine.js",
+    "assets/js/home-recommendation-rules.js",
+    "assets/js/pvx-readiness-contract.js",
+    "assets/js/recommendation-builder.js",
+    "assets/js/recommendation-engine.js",
+    "assets/js/report-engine.js",
+    "server/pvx-readiness-core.mjs",
+    "server/pvx-resume-core.mjs",
+    "server/sms-consent-api-core.mjs",
+    "server/sms-consent-core.mjs",
+    "server/sms-outbound-gateway.mjs"
+  ]
+}

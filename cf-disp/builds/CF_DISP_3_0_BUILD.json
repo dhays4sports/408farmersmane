@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-3.0",
+  "title": "Acquisition Event Taxonomy",
+  "baseVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "status": "complete",
+  "completedAt": "2026-08-24",
+  "implementationFiles": [
+    "assets/js/displacement-analytics.js",
+    "assets/js/pvx-consumer-events.js",
+    "server/pvx-event-core.mjs",
+    "contracts/CF_DISP_MEASUREMENT_CONTRACT.json"
+  ]
+}
