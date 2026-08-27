@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "program": "CF-DISP",
+  "sprint": "CF-DISP-4.1",
+  "title": "Nonrenewal Content Hub + Technical SEO",
+  "baselineVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "purpose": "Adds indexable routes, canonical/meta/OG signals, sitemap inclusion, internal linking, meaningful server-readable content, and no doorway-page expansion.",
+  "implementationFiles": [
+    "nonrenewal/index.html",
+    "nonrenewal/safeco/index.html",
+    "sitemap.xml",
+    "seo/DISPLACEMENT_CONTENT_REGISTRY.json"
+  ],
+  "acceptance": {
+    "focusedQaRequired": true,
+    "noUnexplainedNewRegressionFailures": true,
+    "protectedSemanticBoundaries": true
+  },
+  "semanticBoundaries": {
+    "operationalUrgencyMayRoute": true,
+    "operationalUrgencyMayAffectProtectionScore": false,
+    "displacementMayDetermineEligibility": false,
+    "displacementMayCreateContactConsent": false,
+    "carrierSpecificEntryMayCreateActionReadiness": false
+  },
+  "rollback": {
+    "unit": "CF-DISP-4.1",
+    "revertOnlyFilesOwnedBySprintWhereSafe": true,
+    "restoreBaselineProtectedFilesIfBoundaryViolation": true
+  }
+}

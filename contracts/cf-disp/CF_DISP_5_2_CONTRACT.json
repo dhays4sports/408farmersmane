@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "program": "CF-DISP",
+  "sprint": "CF-DISP-5.2",
+  "title": "Cross-System Regression + Production Candidate",
+  "baselineVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "purpose": "Runs focused/normalized regression, protected-hash comparison, final cross-system certification, packaging, cutover, and rollback evidence.",
+  "implementationFiles": [
+    "CF_DISP_FOCUSED_QA.mjs",
+    "CF_DISP_BUILD.json",
+    "cf-disp/baseline/PROTECTED_HASHES_FINAL.sha256"
+  ],
+  "acceptance": {
+    "focusedQaRequired": true,
+    "noUnexplainedNewRegressionFailures": true,
+    "protectedSemanticBoundaries": true
+  },
+  "semanticBoundaries": {
+    "operationalUrgencyMayRoute": true,
+    "operationalUrgencyMayAffectProtectionScore": false,
+    "displacementMayDetermineEligibility": false,
+    "displacementMayCreateContactConsent": false,
+    "carrierSpecificEntryMayCreateActionReadiness": false
+  },
+  "rollback": {
+    "unit": "CF-DISP-5.2",
+    "revertOnlyFilesOwnedBySprintWhereSafe": true,
+    "restoreBaselineProtectedFilesIfBoundaryViolation": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.0",
+  "program": "CF-DISP",
+  "sprint": "CF-DISP-3.2",
+  "title": "Google Search Campaign Launch Kit",
+  "baselineVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "purpose": "Produces two launch-ready Search campaign structures, query controls, ads, measurement mapping, operating rules, and trademark guardrails.",
+  "implementationFiles": [
+    "campaigns/google-ads/CAMPAIGN_STRUCTURE.csv",
+    "campaigns/google-ads/KEYWORDS.csv",
+    "campaigns/google-ads/NEGATIVE_KEYWORDS.txt",
+    "campaigns/google-ads/RSA_COPY.csv",
+    "campaigns/google-ads/GOOGLE_ADS_LAUNCH_RUNBOOK.md",
+    "campaigns/google-ads/CAMPAIGN_SETTINGS.csv",
+    "campaigns/google-ads/SITELINKS_CALLOUTS.csv",
+    "campaigns/google-ads/CONVERSION_MAP.csv",
+    "campaigns/google-ads/UTM_CONVENTIONS.md",
+    "campaigns/google-ads/SEARCH_TERM_REVIEW_TEMPLATE.csv",
+    "campaigns/google-ads/LAUNCH_CHECKLIST.md"
+  ],
+  "acceptance": {
+    "focusedQaRequired": true,
+    "noUnexplainedNewRegressionFailures": true,
+    "protectedSemanticBoundaries": true
+  },
+  "semanticBoundaries": {
+    "operationalUrgencyMayRoute": true,
+    "operationalUrgencyMayAffectProtectionScore": false,
+    "displacementMayDetermineEligibility": false,
+    "displacementMayCreateContactConsent": false,
+    "carrierSpecificEntryMayCreateActionReadiness": false
+  },
+  "rollback": {
+    "unit": "CF-DISP-3.2",
+    "revertOnlyFilesOwnedBySprintWhereSafe": true,
+    "restoreBaselineProtectedFilesIfBoundaryViolation": true
+  }
+}

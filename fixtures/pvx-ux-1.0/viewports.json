@@ -1,0 +1,10 @@
+{
+  "sprint": "CF-PVX-UX-1.0",
+  "viewports": [
+    {"id":"iphone-se","width":320,"height":568,"deviceScaleFactor":2},
+    {"id":"iphone-portrait","width":390,"height":844,"deviceScaleFactor":3},
+    {"id":"short-landscape","width":844,"height":390,"deviceScaleFactor":2},
+    {"id":"tablet","width":768,"height":1024,"deviceScaleFactor":2},
+    {"id":"desktop","width":1440,"height":1000,"deviceScaleFactor":1}
+  ]
+}

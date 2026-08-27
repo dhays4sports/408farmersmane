@@ -1,0 +1,8 @@
+{
+  "id": "pvx-foundation-five-question-sample",
+  "route": "/pvx/?preview=1",
+  "steps": ["shopping-reason","improvement-priorities","address-entry","address-confirmation","permission-to-advise"],
+  "states": ["question","inline-help","micro-feedback","loading","recoverable-error","completion","resume"],
+  "requiredSemantics": ["radio","aria-pressed","progressbar","aria-live","dialog"],
+  "businessOutputs": {"reviewTopics":0,"recommendations":0,"protectionScore":false,"leadCheckpoint":false}
+}

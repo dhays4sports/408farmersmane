@@ -1,0 +1,27 @@
+{
+  "contract_id": "408-agency-authority-mnemonic-continuity-v1",
+  "release": "408-IDENTITY-1.10",
+  "archive_sha256": "4f9c8a33d40a986a6ad834ee68f1201e98b5da5c4d2b19158351142f157db3b4",
+  "bootstrap_endpoint": "https://review.408farmers.com/api/pvx/web-bootstrap",
+  "sms_number": "+14083276377",
+  "sms_entry_messages": {
+    "home": "HOME: Hi Dylan, I'd like help reviewing my home insurance.",
+    "auto": "AUTO: Hi Dylan, I'd like help reviewing my auto insurance.",
+    "life": "LIFE: Hi Dylan, I'd like help reviewing my life insurance options.",
+    "business": "BUSINESS: Hi Dylan, I'd like help reviewing insurance for my business."
+  },
+  "tech": {
+    "build": "TECH-PVX-1.10",
+    "professional_program": "technology",
+    "roles": [
+      "software_engineering",
+      "it_cybersecurity",
+      "data_analytics",
+      "product_program",
+      "design_ux",
+      "tech_operations_support",
+      "other_tech"
+    ],
+    "consent_version": "tech-pvx-early-agency-contact-v1"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "contractId": "coveragefit-displacement-measurement-v1",
+  "version": "1.0",
+  "build": "CF-DISP-3.1",
+  "events": [
+    "disp_landing_view",
+    "disp_intake_started",
+    "disp_question_completed",
+    "disp_intake_completed",
+    "disp_value_viewed",
+    "disp_snapshot_saved",
+    "disp_contact_requested",
+    "disp_home_profile_started",
+    "disp_home_profile_completed",
+    "disp_policy_review_started",
+    "disp_policy_review_completed",
+    "producer_contact_attempted",
+    "producer_conversation_completed",
+    "quote_started",
+    "quote_delivered",
+    "policy_bound",
+    "policy_lost"
+  ],
+  "piiInGeneralAnalytics": false,
+  "conversionActions": {
+    "disp_contact_requested": "Lead",
+    "producer_conversation_completed": "Qualified Lead",
+    "quote_started": "Quote Started",
+    "quote_delivered": "Quote Delivered",
+    "policy_bound": "Policy Bound"
+  }
+}

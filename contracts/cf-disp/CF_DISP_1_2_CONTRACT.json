@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "program": "CF-DISP",
+  "sprint": "CF-DISP-1.2",
+  "title": "Carrier-Neutral Nonrenewal Experience",
+  "baselineVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "purpose": "Adds the carrier-neutral, indexable, value-first nonrenewal entry route.",
+  "implementationFiles": [
+    "nonrenewal/index.html",
+    "assets/css/displacement.css"
+  ],
+  "acceptance": {
+    "focusedQaRequired": true,
+    "noUnexplainedNewRegressionFailures": true,
+    "protectedSemanticBoundaries": true
+  },
+  "semanticBoundaries": {
+    "operationalUrgencyMayRoute": true,
+    "operationalUrgencyMayAffectProtectionScore": false,
+    "displacementMayDetermineEligibility": false,
+    "displacementMayCreateContactConsent": false,
+    "carrierSpecificEntryMayCreateActionReadiness": false
+  },
+  "rollback": {
+    "unit": "CF-DISP-1.2",
+    "revertOnlyFilesOwnedBySprintWhereSafe": true,
+    "restoreBaselineProtectedFilesIfBoundaryViolation": true
+  }
+}

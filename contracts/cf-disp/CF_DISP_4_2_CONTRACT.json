@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "program": "CF-DISP",
+  "sprint": "CF-DISP-4.2",
+  "title": "Search Query \u2192 Content Learning Loop",
+  "baselineVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "purpose": "Creates a privacy-safe candidate-topic registry driven by downstream quality while explicitly prohibiting automatic publication.",
+  "implementationFiles": [
+    "seo/DISPLACEMENT_CONTENT_REGISTRY.json",
+    "contracts/CF_DISP_MEASUREMENT_CONTRACT.json"
+  ],
+  "acceptance": {
+    "focusedQaRequired": true,
+    "noUnexplainedNewRegressionFailures": true,
+    "protectedSemanticBoundaries": true
+  },
+  "semanticBoundaries": {
+    "operationalUrgencyMayRoute": true,
+    "operationalUrgencyMayAffectProtectionScore": false,
+    "displacementMayDetermineEligibility": false,
+    "displacementMayCreateContactConsent": false,
+    "carrierSpecificEntryMayCreateActionReadiness": false
+  },
+  "rollback": {
+    "unit": "CF-DISP-4.2",
+    "revertOnlyFilesOwnedBySprintWhereSafe": true,
+    "restoreBaselineProtectedFilesIfBoundaryViolation": true
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000">
+    <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#fbfdfc"/><stop offset="1" stop-color="#f2f8f5"/></linearGradient><linearGradient id="brand" x2="1"><stop stop-color="#1478c9"/><stop offset="1" stop-color="#26ae60"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#082846" flood-opacity=".12"/></filter></defs>
+    <rect width="1440" height="1000" fill="url(#bg)"/>
+    <rect width="1440" height="76" fill="#fff" stroke="#dce7ed"/>
+    <circle cx="396" cy="38" r="15" fill="#26ae60"/><path d="M389 38l5 5 10-12" fill="none" stroke="#fff" stroke-width="3"/>
+    <text x="420" y="44" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#082846">CoverageFit</text>
+    <text x="1060" y="44" text-anchor="end" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#153d5d">Save &amp; exit</text>
+    <text x="380" y="105" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#158a48">YOUR GOALS</text>
+    <text x="1060" y="105" text-anchor="end" font-family="Arial,sans-serif" font-size="12" fill="#607487">Step 1 of 5</text>
+    <rect x="380" y="119" width="680" height="6" rx="3" fill="#e6eef2"/><rect x="380" y="119" width="136" height="6" rx="3" fill="url(#brand)"/>
+    <rect x="380" y="158" width="680" height="650" rx="28" fill="#fff" stroke="#dce7ed" filter="url(#shadow)"/>
+    <text x="422" y="200" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.3" fill="#158a48">A QUICK START</text>
+    <text x="422" y="240" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#082846">What’s bringing you</text>
+    <text x="422" y="276" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#082846">here today?</text>
+    <text x="422" y="304" font-family="Arial,sans-serif" font-size="14" fill="#607487">Choose the closest answer. You can always go back.</text>
+    <rect x="422" y="342" width="596" height="60" rx="14" fill="#fff" stroke="#dce7ed"/><text x="438" y="377" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#082846">My price changed</text><circle cx="1001" cy="372" r="10" fill="none" stroke="#b9c9d3" stroke-width="2"/><rect x="422" y="412" width="596" height="60" rx="14" fill="#fff" stroke="#dce7ed"/><text x="438" y="447" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#082846">I’m buying a home</text><circle cx="1001" cy="442" r="10" fill="none" stroke="#b9c9d3" stroke-width="2"/><rect x="422" y="482" width="596" height="60" rx="14" fill="#fff" stroke="#dce7ed"/><text x="438" y="517" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#082846">My renewal is coming up</text><circle cx="1001" cy="512" r="10" fill="none" stroke="#b9c9d3" stroke-width="2"/><rect x="422" y="552" width="596" height="60" rx="14" fill="#fff" stroke="#dce7ed"/><text x="438" y="587" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#082846">I’m simply comparing</text><circle cx="1001" cy="582" r="10" fill="none" stroke="#b9c9d3" stroke-width="2"/><rect x="422" y="622" width="596" height="60" rx="14" fill="#fff" stroke="#dce7ed"/><text x="438" y="657" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#082846">Something else</text><circle cx="1001" cy="652" r="10" fill="none" stroke="#b9c9d3" stroke-width="2"/>
+  </svg>

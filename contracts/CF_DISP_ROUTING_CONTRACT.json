@@ -1,0 +1,15 @@
+{
+  "contractId": "coveragefit-displacement-routing-v1",
+  "version": "1.0",
+  "build": "CF-DISP-2.0",
+  "urgency": {
+    "immediate": "<=30 days",
+    "active": "31-60 days",
+    "planning": "61-90 days",
+    "early": ">90 days",
+    "unclear": "no reliable date"
+  },
+  "rankingPurpose": "producer attention only",
+  "numericLeadScore": null,
+  "underwritingDecision": false
+}

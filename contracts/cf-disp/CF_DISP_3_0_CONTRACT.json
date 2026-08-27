@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "program": "CF-DISP",
+  "sprint": "CF-DISP-3.0",
+  "title": "Acquisition Event Taxonomy",
+  "baselineVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "purpose": "Extends the meaningful-signal event model from landing through bound/lost outcomes with enumerated, PII-free displacement details.",
+  "implementationFiles": [
+    "assets/js/displacement-analytics.js",
+    "assets/js/pvx-consumer-events.js",
+    "server/pvx-event-core.mjs",
+    "contracts/CF_DISP_MEASUREMENT_CONTRACT.json"
+  ],
+  "acceptance": {
+    "focusedQaRequired": true,
+    "noUnexplainedNewRegressionFailures": true,
+    "protectedSemanticBoundaries": true
+  },
+  "semanticBoundaries": {
+    "operationalUrgencyMayRoute": true,
+    "operationalUrgencyMayAffectProtectionScore": false,
+    "displacementMayDetermineEligibility": false,
+    "displacementMayCreateContactConsent": false,
+    "carrierSpecificEntryMayCreateActionReadiness": false
+  },
+  "rollback": {
+    "unit": "CF-DISP-3.0",
+    "revertOnlyFilesOwnedBySprintWhereSafe": true,
+    "restoreBaselineProtectedFilesIfBoundaryViolation": true
+  }
+}

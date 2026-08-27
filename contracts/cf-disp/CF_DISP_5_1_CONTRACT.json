@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "program": "CF-DISP",
+  "sprint": "CF-DISP-5.1",
+  "title": "Accessibility, Performance, Privacy + Security Certification",
+  "baselineVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "purpose": "Certifies mobile-first source behavior, semantic controls, reduced motion, bounded/sanitized inputs, PII separation, and protected consent semantics.",
+  "implementationFiles": [
+    "assets/css/displacement.css",
+    "assets/js/displacement-intake.js",
+    "server/pvx-displacement-core.mjs",
+    "CF_DISP_FOCUSED_QA.mjs"
+  ],
+  "acceptance": {
+    "focusedQaRequired": true,
+    "noUnexplainedNewRegressionFailures": true,
+    "protectedSemanticBoundaries": true
+  },
+  "semanticBoundaries": {
+    "operationalUrgencyMayRoute": true,
+    "operationalUrgencyMayAffectProtectionScore": false,
+    "displacementMayDetermineEligibility": false,
+    "displacementMayCreateContactConsent": false,
+    "carrierSpecificEntryMayCreateActionReadiness": false
+  },
+  "rollback": {
+    "unit": "CF-DISP-5.1",
+    "revertOnlyFilesOwnedBySprintWhereSafe": true,
+    "restoreBaselineProtectedFilesIfBoundaryViolation": true
+  }
+}

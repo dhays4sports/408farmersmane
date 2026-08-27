@@ -1,0 +1,56 @@
+{
+  "contractId": "coveragefit-displacement-context-v1",
+  "version": "1.0",
+  "build": "CF-DISP-1.0",
+  "fields": {
+    "eventType": [
+      "nonrenewal_notice",
+      "cancellation_notice",
+      "agent_said_will_not_continue",
+      "concerned_may_not_renew",
+      "comparison_only"
+    ],
+    "carrier": [
+      "safeco",
+      "liberty_mutual",
+      "aaa_csaa",
+      "state_farm",
+      "travelers",
+      "mercury",
+      "other",
+      "unsure"
+    ],
+    "timingBucket": [
+      "within_30",
+      "days_31_60",
+      "days_61_90",
+      "over_90",
+      "unsure"
+    ],
+    "propertyType": [
+      "home",
+      "condo",
+      "rental",
+      "multiple"
+    ],
+    "statedReason": [
+      "carrier_program_change",
+      "wildfire_location",
+      "roof",
+      "inspection_condition",
+      "claims",
+      "agent_relationship",
+      "concentration_density",
+      "other",
+      "unsure"
+    ]
+  },
+  "semanticBoundary": {
+    "operationalUrgencyOnly": true,
+    "protectionScoreInput": false,
+    "recommendationInput": false,
+    "eligibilityDecision": false,
+    "actionReadinessInput": false,
+    "contactPermission": false
+  }
+}

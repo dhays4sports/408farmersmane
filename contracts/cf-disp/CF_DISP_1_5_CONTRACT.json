@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0",
+  "program": "CF-DISP",
+  "sprint": "CF-DISP-1.5",
+  "title": "Immediate Displacement Snapshot + Zero-Repeat PVX Bridge",
+  "baselineVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "purpose": "Produces timing value before contact, persists displacement state, pre-fills why-shopping context, and carries it through PVX/checkpoint/profile surfaces.",
+  "implementationFiles": [
+    "assets/js/displacement-context.js",
+    "assets/js/pvx-checkpoint.js",
+    "assets/js/pvx-checkpoint-view.js",
+    "server/pvx-checkpoint-core.mjs",
+    "assets/js/assessment-engine.js"
+  ],
+  "acceptance": {
+    "focusedQaRequired": true,
+    "noUnexplainedNewRegressionFailures": true,
+    "protectedSemanticBoundaries": true
+  },
+  "semanticBoundaries": {
+    "operationalUrgencyMayRoute": true,
+    "operationalUrgencyMayAffectProtectionScore": false,
+    "displacementMayDetermineEligibility": false,
+    "displacementMayCreateContactConsent": false,
+    "carrierSpecificEntryMayCreateActionReadiness": false
+  },
+  "rollback": {
+    "unit": "CF-DISP-1.5",
+    "revertOnlyFilesOwnedBySprintWhereSafe": true,
+    "restoreBaselineProtectedFilesIfBoundaryViolation": true
+  }
+}

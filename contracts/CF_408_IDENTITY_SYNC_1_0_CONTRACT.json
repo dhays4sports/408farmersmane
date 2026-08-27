@@ -1,0 +1,50 @@
+{
+  "contract_id": "coveragefit-408-identity-sync-v1",
+  "build": "CF-408-IDENTITY-SYNC-1.0",
+  "coveragefit_version": "3.20.204",
+  "upstream_identity_contract": "408-IDENTITY-1.10",
+  "upstream_archive_sha256": "4f9c8a33d40a986a6ad834ee68f1201e98b5da5c4d2b19158351142f157db3b4",
+  "coveragefit_baseline_sha256": "29a8d7df8e5986c1ac9e4ea6bcf9863b4487b1eb4277a9bec0269245a508d6ee",
+  "consumer_hierarchy": [
+    { "rank": 1, "role": "carrier_credential", "value": "Farmers Insurance Authorized Agency" },
+    { "rank": 2, "role": "licensed_agency", "value": "Virginia Tam Insurance Agency, Inc." },
+    { "rank": 3, "role": "producer", "value": "Dylan Haysbert", "title": "Insurance Producer", "license": "CA License #4528400" },
+    { "rank": 4, "role": "review_experience", "value": "CoverageFit" },
+    { "rank": 5, "role": "contact_mnemonic", "value": "408-FARMERS", "phone": "+14083276377" },
+    { "rank": 6, "role": "acquisition_domain", "value": "408farmers.com" }
+  ],
+  "visible_label_contract": {
+    "agency_request": "agency request",
+    "agency_website": "408farmers.com agency website",
+    "mnemonic_explanation": "408-FARMERS is the memorable text line for Virginia Tam Insurance Agency, Inc.",
+    "forbidden_entity_label": "408FARMERS"
+  },
+  "preserved_technical_identifiers": [
+    "408farmers.com",
+    "review.408farmers.com",
+    "408farmers_web",
+    "408farmers_sms",
+    "408farmers_tech",
+    "408farmers_tech_checkpoint",
+    "408farmers-prefill",
+    "hostMode=408farmers",
+    "utm_source=408farmers",
+    "TECH-PVX-1.10",
+    "RC-SMS-1.9.7"
+  ],
+  "protected_boundaries": [
+    "POST-only secure bootstrap",
+    "allowed-origin enforcement",
+    "body-size enforcement",
+    "secure resume cookie",
+    "idempotent bootstrap",
+    "no PII in visible URLs or analytics",
+    "early agency consent is not later contact permission",
+    "phone number is not SMS permission",
+    "SMS suppression remains authoritative",
+    "professional role is not eligibility",
+    "identity is not merged by contact match alone",
+    "no bind authorization",
+    "HOME AUTO LIFE BUSINESS bounded SMS intake"
+  ]
+}

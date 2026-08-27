@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "program": "CF-DISP",
+  "sprint": "CF-DISP-1.0",
+  "title": "Displacement Context Contract + Carrier Registry",
+  "baselineVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "purpose": "Introduces one reusable displacement context and carrier registry without forking PVX or any scoring/recommendation engine.",
+  "implementationFiles": [
+    "contracts/CF_DISP_CONTEXT_CONTRACT.json",
+    "assets/js/displacement-carriers.js",
+    "assets/js/displacement-context.js",
+    "server/pvx-displacement-core.mjs"
+  ],
+  "acceptance": {
+    "focusedQaRequired": true,
+    "noUnexplainedNewRegressionFailures": true,
+    "protectedSemanticBoundaries": true
+  },
+  "semanticBoundaries": {
+    "operationalUrgencyMayRoute": true,
+    "operationalUrgencyMayAffectProtectionScore": false,
+    "displacementMayDetermineEligibility": false,
+    "displacementMayCreateContactConsent": false,
+    "carrierSpecificEntryMayCreateActionReadiness": false
+  },
+  "rollback": {
+    "unit": "CF-DISP-1.0",
+    "revertOnlyFilesOwnedBySprintWhereSafe": true,
+    "restoreBaselineProtectedFilesIfBoundaryViolation": true
+  }
+}

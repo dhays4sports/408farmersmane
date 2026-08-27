@@ -1,0 +1,75 @@
+{
+  "contract_id": "coveragefit-408farmers-sms-entry-points-v1",
+  "release": "RC-SMS-1.9.7",
+  "coveragefit_version": "3.20.203",
+  "source_origin": "https://408farmers.com",
+  "destination_number_e164": "+14083276377",
+  "entry_points": {
+    "home": {
+      "path": "/text/home",
+      "starter_message": "HOME: Hi Dylan, I'd like help reviewing my home insurance.",
+      "intent": "home_review",
+      "workflow": "coveragefit_home_review",
+      "first_state": "home_review_address_requested",
+      "completion": "secure_coveragefit_home_handoff"
+    },
+    "auto": {
+      "path": "/text/auto",
+      "starter_message": "AUTO: Hi Dylan, I'd like help reviewing my auto insurance.",
+      "intent": "auto",
+      "workflow": "coveragefit_auto_intake",
+      "states": [
+        "auto_vehicle_count_requested",
+        "auto_driver_count_requested",
+        "auto_review_reason_requested",
+        "awaiting_producer"
+      ],
+      "completion": "producer_ready_sms_handoff"
+    },
+    "life": {
+      "path": "/text/life",
+      "starter_message": "LIFE: Hi Dylan, I'd like help reviewing my life insurance options.",
+      "intent": "life",
+      "workflow": "coveragefit_life_intake",
+      "states": [
+        "life_protection_goal_requested",
+        "life_covered_person_requested",
+        "awaiting_producer"
+      ],
+      "completion": "producer_ready_sms_handoff"
+    },
+    "business": {
+      "path": "/text/business",
+      "starter_message": "BUSINESS: Hi Dylan, I'd like help reviewing insurance for my business.",
+      "intent": "business",
+      "workflow": "coveragefit_business_intake",
+      "states": [
+        "business_industry_requested",
+        "business_coverage_requested",
+        "awaiting_producer"
+      ],
+      "completion": "producer_ready_sms_handoff"
+    }
+  },
+  "boundaries": {
+    "opening_composer_is_sent_message": false,
+    "inbound_message_is_quote_request": false,
+    "inbound_message_is_bind_authorization": false,
+    "inbound_message_is_call_or_email_permission": false,
+    "inbound_message_is_automated_marketing_sms_permission": false,
+    "auto_life_business_enter_home_pvx": false,
+    "stop_suppression_remains_authoritative": true,
+    "provider_suppression_remains_authoritative": true,
+    "producer_ownership_is_never_silently_reclaimed": true,
+    "customer_answers_are_customer_reported_not_verified": true,
+    "eligibility_underwriting_and_savings_are_never_inferred": true
+  },
+  "privacy": {
+    "entry_point_metadata_is_bounded": true,
+    "producer_email_excludes_phone_and_transcript": true,
+    "analytics_must_not_receive_phone_or_message_body": true,
+    "auto_prompt_rejects_vin_and_driver_license_collection": true,
+    "life_prompt_rejects_health_ssn_and_account_collection": true,
+    "business_prompt_rejects_ein_customer_and_account_collection": true
+  }
+}

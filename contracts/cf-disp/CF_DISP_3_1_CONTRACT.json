@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "program": "CF-DISP",
+  "sprint": "CF-DISP-3.1",
+  "title": "Google Ads Measurement + Enhanced Lead Conversion Bridge",
+  "baselineVersion": "3.20.200",
+  "releaseOverlay": "CF-DISP-5.2",
+  "purpose": "Creates a current Data Manager-shaped outcome adapter with separate match data and no general-analytics PII.",
+  "implementationFiles": [
+    "server/displacement-conversion-core.mjs",
+    "campaigns/google-ads/GOOGLE_MEASUREMENT_IMPLEMENTATION.md",
+    "campaigns/google-ads/DATA_MANAGER_TEMPLATE.csv"
+  ],
+  "acceptance": {
+    "focusedQaRequired": true,
+    "noUnexplainedNewRegressionFailures": true,
+    "protectedSemanticBoundaries": true
+  },
+  "semanticBoundaries": {
+    "operationalUrgencyMayRoute": true,
+    "operationalUrgencyMayAffectProtectionScore": false,
+    "displacementMayDetermineEligibility": false,
+    "displacementMayCreateContactConsent": false,
+    "carrierSpecificEntryMayCreateActionReadiness": false
+  },
+  "rollback": {
+    "unit": "CF-DISP-3.1",
+    "revertOnlyFilesOwnedBySprintWhereSafe": true,
+    "restoreBaselineProtectedFilesIfBoundaryViolation": true
+  }
+}
