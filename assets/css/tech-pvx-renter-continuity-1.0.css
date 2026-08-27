@@ -1,0 +1,23 @@
+/* TECH-PVX-1.0 renter Snapshot */
+.tech-renter-shell{max-width:760px;margin:2rem auto;padding:0 1rem;color:#071f4d}
+.tech-renter-card{background:#fff;border:1px solid rgba(7,35,82,.14);border-radius:24px;box-shadow:0 18px 50px rgba(7,35,82,.10);padding:clamp(1.25rem,4vw,2.6rem)}
+.tech-renter-eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#946300;margin:0 0 .7rem}
+.tech-renter-card h1,.tech-renter-card h2{color:#071f4d;line-height:1.08;margin:.15rem 0 .85rem}
+.tech-renter-card h1{font-size:clamp(2rem,5vw,3.2rem)}
+.tech-renter-card h2{font-size:clamp(1.45rem,3vw,2rem)}
+.tech-renter-lede{line-height:1.6;color:#3d4960;font-size:1.05rem}
+.tech-renter-progress{font-size:.85rem;font-weight:800;color:#667087;margin:1rem 0 .5rem}
+.tech-renter-options{display:grid;gap:.7rem;margin:1rem 0}
+.tech-renter-option{appearance:none;width:100%;border:1.5px solid rgba(7,35,82,.23);background:#fff;color:#071f4d;border-radius:14px;padding:1rem;text-align:left;font:inherit;font-weight:800;cursor:pointer}
+.tech-renter-option:hover,.tech-renter-option:focus-visible{border-color:#a36d00;outline:3px solid rgba(163,109,0,.17);outline-offset:1px}
+.tech-renter-option[aria-pressed="true"]{background:#eef3fb;border-color:#071f4d}
+.tech-renter-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.25rem}
+.tech-renter-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;border-radius:13px;padding:.8rem 1.1rem;background:#071f4d;color:#fff;border:1.5px solid #071f4d;text-decoration:none;font:inherit;font-weight:800;cursor:pointer}
+.tech-renter-button.secondary{background:#fff;color:#071f4d}
+.tech-renter-button[disabled]{opacity:.45;cursor:not-allowed}
+.tech-renter-note{font-size:.86rem;line-height:1.5;color:#667087;margin-top:1rem}
+.tech-renter-summary{display:grid;gap:.7rem;margin:1rem 0}
+.tech-renter-summary-item{padding:1rem;border-radius:14px;background:#f3f6fb;border:1px solid rgba(7,35,82,.1)}
+.tech-renter-summary-item strong{display:block;margin-bottom:.2rem}
+.tech-renter-live{min-height:1.4rem;color:#8b1e1e;font-weight:700;font-size:.9rem}
+@media(max-width:600px){.tech-renter-shell{margin:1rem auto;padding:0 .7rem}.tech-renter-card{border-radius:18px}}
