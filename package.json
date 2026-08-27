@@ -1,0 +1,19 @@
+{
+  "name": "coveragefit",
+  "version": "3.20.204",
+  "private": true,
+  "description": "CoverageFit v3.20.204 + CF-408-IDENTITY-SYNC-1.0, preserving RC-SMS-1.9.7, TECH-PVX-1.10, CF-DISP-5.2, and CF-DISP-OUTREACH-1.1.",
+  "scripts": {
+    "cloudflare:dev": "wrangler pages dev .",
+    "cloudflare:functions:build": "wrangler pages functions build --outdir=.cloudflare/functions-dist",
+    "cloudflare:discovery:deploy": "wrangler deploy --config wrangler.discovery.jsonc",
+    "cloudflare:discovery:dev": "wrangler dev --config wrangler.discovery.jsonc",
+    "test:tech-pvx-1.0": "node --test tests/tech-pvx-1.0.test.cjs",
+    "test:tech-pvx-1.10": "node --test tests/tech-pvx-1.10.test.mjs tests/tech-pvx-1.10-certification.test.mjs",
+    "test:sms-entry-points": "node --test tests/rc-sms-1.9.7-entry-points.test.mjs",
+    "test:408-identity-sync": "node --test tests/408-identity-1.10-sync.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.114.0"
+  }
+}
