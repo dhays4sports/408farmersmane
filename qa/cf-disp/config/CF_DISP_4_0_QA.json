@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-4.0",
+  "requiredFiles": [
+    "nonrenewal/safeco/index.html",
+    "cf-disp/CARRIER_FACT_REGISTRY.json"
+  ],
+  "contains": [
+    {
+      "file": "nonrenewal/safeco/index.html",
+      "needle": "Safeco nonrenewal in California: the important distinctions"
+    },
+    {
+      "file": "nonrenewal/safeco/index.html",
+      "needle": "Can CoverageFit tell me if Farmers will accept the property?"
+    },
+    {
+      "file": "cf-disp/CARRIER_FACT_REGISTRY.json",
+      "needle": "sourceUrl"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

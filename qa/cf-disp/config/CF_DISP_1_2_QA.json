@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-1.2",
+  "requiredFiles": [
+    "nonrenewal/index.html",
+    "assets/css/displacement.css"
+  ],
+  "contains": [
+    {
+      "file": "nonrenewal/index.html",
+      "needle": "Home insurance not being renewed?"
+    },
+    {
+      "file": "nonrenewal/index.html",
+      "needle": "Quick situation check"
+    },
+    {
+      "file": "nonrenewal/index.html",
+      "needle": "rel=\"canonical\" href=\"https://coveragefit.com/nonrenewal/\""
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

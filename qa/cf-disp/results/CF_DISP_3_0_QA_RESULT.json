@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-3.0",
+  "executedAt": "2026-08-24T22:05:00.177Z",
+  "checks": [
+    {
+      "name": "file:assets/js/displacement-analytics.js",
+      "pass": true
+    },
+    {
+      "name": "file:assets/js/pvx-consumer-events.js",
+      "pass": true
+    },
+    {
+      "name": "file:server/pvx-event-core.mjs",
+      "pass": true
+    },
+    {
+      "name": "file:contracts/CF_DISP_MEASUREMENT_CONTRACT.json",
+      "pass": true
+    },
+    {
+      "name": "contains:server/pvx-event-core.mjs:disp_landing_view",
+      "pass": true
+    },
+    {
+      "name": "contains:server/pvx-event-core.mjs:producer_conversation_completed",
+      "pass": true
+    },
+    {
+      "name": "contains:server/pvx-event-core.mjs:policy_bound",
+      "pass": true
+    }
+  ],
+  "passed": 7,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

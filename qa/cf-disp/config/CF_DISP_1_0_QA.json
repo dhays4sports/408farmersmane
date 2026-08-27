@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-1.0",
+  "requiredFiles": [
+    "contracts/CF_DISP_CONTEXT_CONTRACT.json",
+    "assets/js/displacement-carriers.js",
+    "assets/js/displacement-context.js",
+    "server/pvx-displacement-core.mjs"
+  ],
+  "contains": [
+    {
+      "file": "server/pvx-displacement-core.mjs",
+      "needle": "protectionScoreInput:false"
+    },
+    {
+      "file": "assets/js/displacement-carriers.js",
+      "needle": "aaa_csaa"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

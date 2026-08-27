@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-4.1",
+  "executedAt": "2026-08-24T22:05:00.178Z",
+  "checks": [
+    {
+      "name": "file:nonrenewal/index.html",
+      "pass": true
+    },
+    {
+      "name": "file:nonrenewal/safeco/index.html",
+      "pass": true
+    },
+    {
+      "name": "file:sitemap.xml",
+      "pass": true
+    },
+    {
+      "name": "file:seo/DISPLACEMENT_CONTENT_REGISTRY.json",
+      "pass": true
+    },
+    {
+      "name": "contains:sitemap.xml:https://coveragefit.com/nonrenewal/",
+      "pass": true
+    },
+    {
+      "name": "contains:nonrenewal/index.html:meta name=\"description\"",
+      "pass": true
+    },
+    {
+      "name": "contains:nonrenewal/safeco/index.html:rel=\"canonical\"",
+      "pass": true
+    }
+  ],
+  "passed": 7,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

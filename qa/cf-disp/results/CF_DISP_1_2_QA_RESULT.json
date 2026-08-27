@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-1.2",
+  "executedAt": "2026-08-24T22:05:00.163Z",
+  "checks": [
+    {
+      "name": "file:nonrenewal/index.html",
+      "pass": true
+    },
+    {
+      "name": "file:assets/css/displacement.css",
+      "pass": true
+    },
+    {
+      "name": "contains:nonrenewal/index.html:Home insurance not being renewed?",
+      "pass": true
+    },
+    {
+      "name": "contains:nonrenewal/index.html:Quick situation check",
+      "pass": true
+    },
+    {
+      "name": "contains:nonrenewal/index.html:rel=\"canonical\" href=\"https://coveragefit.com/nonrenewal/\"",
+      "pass": true
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

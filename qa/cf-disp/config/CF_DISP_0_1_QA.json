@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-0.1",
+  "requiredFiles": [
+    "cf-disp/baseline/BASELINE_REGRESSION.json",
+    "cf-disp/baseline/PROTECTED_HASHES_BASELINE.sha256",
+    "CF_DISP_BUILD.json"
+  ],
+  "contains": [
+    {
+      "file": "cf-disp/baseline/BASELINE_REGRESSION.json",
+      "needle": "\"failed\": 97"
+    },
+    {
+      "file": "CF_DISP_BUILD.json",
+      "needle": "\"baselineSha256\""
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

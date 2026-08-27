@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-1.5",
+  "requiredFiles": [
+    "assets/js/displacement-context.js",
+    "assets/js/pvx-checkpoint.js",
+    "assets/js/pvx-checkpoint-view.js",
+    "server/pvx-checkpoint-core.mjs",
+    "assets/js/assessment-engine.js"
+  ],
+  "contains": [
+    {
+      "file": "assets/js/displacement-context.js",
+      "needle": "prefilledQuestionIds"
+    },
+    {
+      "file": "assets/js/displacement-context.js",
+      "needle": "shoppingReason"
+    },
+    {
+      "file": "server/pvx-checkpoint-core.mjs",
+      "needle": "displacementContext"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-4.2",
+  "requiredFiles": [
+    "seo/DISPLACEMENT_CONTENT_REGISTRY.json",
+    "contracts/CF_DISP_MEASUREMENT_CONTRACT.json"
+  ],
+  "contains": [
+    {
+      "file": "seo/DISPLACEMENT_CONTENT_REGISTRY.json",
+      "needle": "measure-before-authoring"
+    },
+    {
+      "file": "seo/DISPLACEMENT_CONTENT_REGISTRY.json",
+      "needle": "automaticPublishing"
+    },
+    {
+      "file": "seo/DISPLACEMENT_CONTENT_REGISTRY.json",
+      "needle": "requiresEditorialApproval"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

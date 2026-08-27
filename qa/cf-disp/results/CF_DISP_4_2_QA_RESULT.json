@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-4.2",
+  "executedAt": "2026-08-24T22:05:00.178Z",
+  "checks": [
+    {
+      "name": "file:seo/DISPLACEMENT_CONTENT_REGISTRY.json",
+      "pass": true
+    },
+    {
+      "name": "file:contracts/CF_DISP_MEASUREMENT_CONTRACT.json",
+      "pass": true
+    },
+    {
+      "name": "contains:seo/DISPLACEMENT_CONTENT_REGISTRY.json:measure-before-authoring",
+      "pass": true
+    },
+    {
+      "name": "contains:seo/DISPLACEMENT_CONTENT_REGISTRY.json:automaticPublishing",
+      "pass": true
+    },
+    {
+      "name": "contains:seo/DISPLACEMENT_CONTENT_REGISTRY.json:requiresEditorialApproval",
+      "pass": true
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

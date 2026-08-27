@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-2.2",
+  "requiredFiles": [
+    "server/pvx-unified-producer-record-core.mjs",
+    "server/pvx-producer-brief-core.mjs",
+    "server/pvx-producer-action-queue-core.mjs"
+  ],
+  "contains": [
+    {
+      "file": "server/pvx-producer-brief-core.mjs",
+      "needle": "operationalUrgency"
+    },
+    {
+      "file": "server/pvx-producer-brief-core.mjs",
+      "needle": "eligibilityDecision:false"
+    },
+    {
+      "file": "server/pvx-unified-producer-record-core.mjs",
+      "needle": "displacementContext"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

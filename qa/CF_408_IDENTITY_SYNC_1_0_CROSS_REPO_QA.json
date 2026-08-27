@@ -1,0 +1,49 @@
+{
+  "qa_id": "CF-408-IDENTITY-SYNC-1.0-CROSS-REPO-QA",
+  "executed_at": "2026-08-27T21:37:49Z",
+  "coveragefit_version": "3.20.204",
+  "coveragefit_baseline_sha256": "29a8d7df8e5986c1ac9e4ea6bcf9863b4487b1eb4277a9bec0269245a508d6ee",
+  "upstream_408_identity_release": "408-IDENTITY-1.10",
+  "upstream_408_archive_sha256": "4f9c8a33d40a986a6ad834ee68f1201e98b5da5c4d2b19158351142f157db3b4",
+  "result": "pass",
+  "release_blockers": [],
+  "cross_repository_checks": {
+    "command": "FARMERS_ROOT=<408-IDENTITY-1.10-root> node --test tests/408-identity-1.10-sync.test.mjs",
+    "passed": 9,
+    "failed": 0,
+    "verified": [
+      "exact HOME SMS entry message",
+      "exact AUTO SMS entry message",
+      "exact LIFE SMS entry message",
+      "exact BUSINESS SMS entry message",
+      "secure CoverageFit bootstrap endpoint",
+      "408-IDENTITY-1.10 release marker",
+      "Virginia Tam Insurance Agency, Inc. licensed-agency identity",
+      "Dylan Haysbert CA License #4528400",
+      "408-FARMERS mnemonic boundary"
+    ]
+  },
+  "full_regression": {
+    "command": "FARMERS_ROOT=<408-IDENTITY-1.10-root> node --test tests/*.js tests/*.mjs tests/*.cjs",
+    "node_tests_passed": 55,
+    "node_tests_failed": 0,
+    "embedded_certification_checks_passed": 184,
+    "embedded_certification_checks_failed": 0,
+    "historical_focused_gate": "not selected; the harness explicitly reported its environment-dependent historical sprint selector as skipped"
+  },
+  "static_integrity": {
+    "runtime_html_pages": 40,
+    "internal_references_checked": 761,
+    "missing_internal_references": 0,
+    "javascript_syntax": "pass",
+    "consumer_html_visible_408FARMERS_entity_occurrences": 0
+  },
+  "responsive_accessibility_performance": {
+    "certification": "CF-ADV-3.3",
+    "source_checks_passed": 15,
+    "critical_asset_bytes": 42930,
+    "budget_bytes": 250000,
+    "browser_engine_execution": "not available in the build environment",
+    "scope_note": "Identity synchronization changes text and contract metadata only; no CSS, image, framework, navigation, control, or layout structure changed."
+  }
+}

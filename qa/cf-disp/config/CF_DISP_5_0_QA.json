@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-5.0",
+  "requiredFiles": [
+    "assets/js/displacement-carriers.js",
+    "cf-disp/CARRIER_FACT_REGISTRY.json",
+    "seo/CARRIER_EXTENSION_GUIDE.md"
+  ],
+  "contains": [
+    {
+      "file": "cf-disp/CARRIER_FACT_REGISTRY.json",
+      "needle": "automaticCarrierCampaignActivation"
+    },
+    {
+      "file": "seo/CARRIER_EXTENSION_GUIDE.md",
+      "needle": "meaningful California displacement development"
+    },
+    {
+      "file": "assets/js/displacement-carriers.js",
+      "needle": "liberty_mutual"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

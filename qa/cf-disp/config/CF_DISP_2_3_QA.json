@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-2.3",
+  "requiredFiles": [
+    "agent/workspace/index.html",
+    "assets/js/agent-workspace.js"
+  ],
+  "contains": [
+    {
+      "file": "agent/workspace/index.html",
+      "needle": "Carrier displacement"
+    },
+    {
+      "file": "assets/js/agent-workspace.js",
+      "needle": "displacementContext"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

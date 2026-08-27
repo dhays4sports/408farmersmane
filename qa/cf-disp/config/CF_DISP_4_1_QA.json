@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-4.1",
+  "requiredFiles": [
+    "nonrenewal/index.html",
+    "nonrenewal/safeco/index.html",
+    "sitemap.xml",
+    "seo/DISPLACEMENT_CONTENT_REGISTRY.json"
+  ],
+  "contains": [
+    {
+      "file": "sitemap.xml",
+      "needle": "https://coveragefit.com/nonrenewal/"
+    },
+    {
+      "file": "nonrenewal/index.html",
+      "needle": "meta name=\"description\""
+    },
+    {
+      "file": "nonrenewal/safeco/index.html",
+      "needle": "rel=\"canonical\""
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

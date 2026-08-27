@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-1.3",
+  "requiredFiles": [
+    "nonrenewal/safeco/index.html",
+    "cf-disp/CARRIER_FACT_REGISTRY.json"
+  ],
+  "contains": [
+    {
+      "file": "nonrenewal/safeco/index.html",
+      "needle": "Received a Safeco or Liberty Mutual nonrenewal?"
+    },
+    {
+      "file": "nonrenewal/safeco/index.html",
+      "needle": "Reviewed August 24, 2026"
+    },
+    {
+      "file": "nonrenewal/safeco/index.html",
+      "needle": "not affiliated with Safeco or Liberty Mutual"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

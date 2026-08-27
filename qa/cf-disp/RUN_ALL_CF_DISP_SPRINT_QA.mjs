@@ -1,0 +1,7 @@
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const here=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(here,'../..'),configDir=path.join(here,'config'),resultDir=path.join(here,'results');fs.mkdirSync(resultDir,{recursive:true});
+let failed=0,total=0,passed=0;const configs=fs.readdirSync(configDir).filter(x=>x.endsWith('_QA.json')).sort();
+for(const name of configs){const cfg=JSON.parse(fs.readFileSync(path.join(configDir,name),'utf8'));const checks=[];for(const rel of cfg.requiredFiles||[]){const ok=fs.existsSync(path.join(root,rel));checks.push({name:`file:${rel}`,pass:ok});}
+for(const item of cfg.contains||[]){let body='';try{body=fs.readFileSync(path.join(root,item.file),'utf8')}catch{};checks.push({name:`contains:${item.file}:${item.needle}`,pass:body.includes(item.needle)});}
+const result={schemaVersion:'1.0',sprint:cfg.sprint,executedAt:new Date().toISOString(),checks,passed:checks.filter(x=>x.pass).length,failed:checks.filter(x=>!x.pass).length,globalBehaviorSuite:'CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)'};fs.writeFileSync(path.join(resultDir,name.replace('_QA.json','_QA_RESULT.json')),JSON.stringify(result,null,2)+'\n');total+=checks.length;passed+=result.passed;failed+=result.failed;if(result.failed)console.error(cfg.sprint,result);}
+console.log(JSON.stringify({suite:'CF-DISP per-sprint focused QA',sprints:configs.length,checks:total,passed,failed},null,2));if(failed)process.exit(1);

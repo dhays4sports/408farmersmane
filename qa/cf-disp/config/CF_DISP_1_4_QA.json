@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-1.4",
+  "requiredFiles": [
+    "assets/js/displacement-intake.js",
+    "assets/css/displacement.css"
+  ],
+  "contains": [
+    {
+      "file": "assets/js/displacement-intake.js",
+      "needle": "Question ${Math.min(index+1,STEPS.length)} of ${STEPS.length}"
+    },
+    {
+      "file": "assets/js/displacement-intake.js",
+      "needle": "concentration_density"
+    },
+    {
+      "file": "assets/js/displacement-intake.js",
+      "needle": "postalCode"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

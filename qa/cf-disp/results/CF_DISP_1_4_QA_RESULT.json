@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-1.4",
+  "executedAt": "2026-08-24T22:05:00.170Z",
+  "checks": [
+    {
+      "name": "file:assets/js/displacement-intake.js",
+      "pass": true
+    },
+    {
+      "name": "file:assets/css/displacement.css",
+      "pass": true
+    },
+    {
+      "name": "contains:assets/js/displacement-intake.js:Question ${Math.min(index+1,STEPS.length)} of ${STEPS.length}",
+      "pass": true
+    },
+    {
+      "name": "contains:assets/js/displacement-intake.js:concentration_density",
+      "pass": true
+    },
+    {
+      "name": "contains:assets/js/displacement-intake.js:postalCode",
+      "pass": true
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

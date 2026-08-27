@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-2.4",
+  "requiredFiles": [
+    "server/pvx-producer-action-queue-core.mjs",
+    "assets/js/displacement-context.js",
+    "server/pvx-checkpoint-core.mjs"
+  ],
+  "contains": [
+    {
+      "file": "server/pvx-producer-action-queue-core.mjs",
+      "needle": "notificationEligible"
+    },
+    {
+      "file": "server/pvx-producer-action-queue-core.mjs",
+      "needle": "explicitContactRequest"
+    },
+    {
+      "file": "assets/js/displacement-context.js",
+      "needle": "startPVX"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

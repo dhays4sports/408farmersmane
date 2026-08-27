@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-0.1",
+  "executedAt": "2026-08-24T22:05:00.162Z",
+  "checks": [
+    {
+      "name": "file:cf-disp/baseline/BASELINE_REGRESSION.json",
+      "pass": true
+    },
+    {
+      "name": "file:cf-disp/baseline/PROTECTED_HASHES_BASELINE.sha256",
+      "pass": true
+    },
+    {
+      "name": "file:CF_DISP_BUILD.json",
+      "pass": true
+    },
+    {
+      "name": "contains:cf-disp/baseline/BASELINE_REGRESSION.json:\"failed\": 97",
+      "pass": true
+    },
+    {
+      "name": "contains:CF_DISP_BUILD.json:\"baselineSha256\"",
+      "pass": true
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-5.0",
+  "executedAt": "2026-08-24T22:05:00.178Z",
+  "checks": [
+    {
+      "name": "file:assets/js/displacement-carriers.js",
+      "pass": true
+    },
+    {
+      "name": "file:cf-disp/CARRIER_FACT_REGISTRY.json",
+      "pass": true
+    },
+    {
+      "name": "file:seo/CARRIER_EXTENSION_GUIDE.md",
+      "pass": true
+    },
+    {
+      "name": "contains:cf-disp/CARRIER_FACT_REGISTRY.json:automaticCarrierCampaignActivation",
+      "pass": true
+    },
+    {
+      "name": "contains:seo/CARRIER_EXTENSION_GUIDE.md:meaningful California displacement development",
+      "pass": true
+    },
+    {
+      "name": "contains:assets/js/displacement-carriers.js:liberty_mutual",
+      "pass": true
+    }
+  ],
+  "passed": 6,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

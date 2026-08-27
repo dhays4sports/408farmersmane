@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-3.2",
+  "executedAt": "2026-08-24T22:05:00.178Z",
+  "checks": [
+    {
+      "name": "file:campaigns/google-ads/CAMPAIGN_STRUCTURE.csv",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/KEYWORDS.csv",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/NEGATIVE_KEYWORDS.txt",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/RSA_COPY.csv",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/GOOGLE_ADS_LAUNCH_RUNBOOK.md",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/CAMPAIGN_SETTINGS.csv",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/SITELINKS_CALLOUTS.csv",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/CONVERSION_MAP.csv",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/UTM_CONVENTIONS.md",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/SEARCH_TERM_REVIEW_TEMPLATE.csv",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/LAUNCH_CHECKLIST.md",
+      "pass": true
+    },
+    {
+      "name": "contains:campaigns/google-ads/GOOGLE_ADS_LAUNCH_RUNBOOK.md:Search only",
+      "pass": true
+    },
+    {
+      "name": "contains:campaigns/google-ads/KEYWORDS.csv:safeco",
+      "pass": true
+    },
+    {
+      "name": "contains:campaigns/google-ads/RSA_COPY.csv:Home Insurance Nonrenewal",
+      "pass": true
+    },
+    {
+      "name": "contains:campaigns/google-ads/KEYWORDS.csv:insurance after safeco nonrenewal",
+      "pass": true
+    },
+    {
+      "name": "contains:campaigns/google-ads/RSA_COPY.csv:CoverageFit Nonrenewal Help",
+      "pass": true
+    },
+    {
+      "name": "contains:campaigns/google-ads/CONVERSION_MAP.csv:policy_bound,Policy Bound",
+      "pass": true
+    },
+    {
+      "name": "contains:campaigns/google-ads/UTM_CONVENTIONS.md:gclid",
+      "pass": true
+    },
+    {
+      "name": "contains:campaigns/google-ads/LAUNCH_CHECKLIST.md:Search Network only",
+      "pass": true
+    }
+  ],
+  "passed": 19,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

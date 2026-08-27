@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-5.1",
+  "executedAt": "2026-08-24T22:05:00.179Z",
+  "checks": [
+    {
+      "name": "file:assets/css/displacement.css",
+      "pass": true
+    },
+    {
+      "name": "file:assets/js/displacement-intake.js",
+      "pass": true
+    },
+    {
+      "name": "file:server/pvx-displacement-core.mjs",
+      "pass": true
+    },
+    {
+      "name": "file:CF_DISP_FOCUSED_QA.mjs",
+      "pass": true
+    },
+    {
+      "name": "contains:assets/css/displacement.css:@media(max-width:360px)",
+      "pass": true
+    },
+    {
+      "name": "contains:assets/css/displacement.css:prefers-reduced-motion",
+      "pass": true
+    },
+    {
+      "name": "contains:nonrenewal/index.html:aria-live",
+      "pass": true
+    },
+    {
+      "name": "contains:server/pvx-displacement-core.mjs:postalCode",
+      "pass": true
+    }
+  ],
+  "passed": 8,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

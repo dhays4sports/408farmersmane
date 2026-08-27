@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-2.0",
+  "executedAt": "2026-08-24T22:05:00.171Z",
+  "checks": [
+    {
+      "name": "file:contracts/CF_DISP_ROUTING_CONTRACT.json",
+      "pass": true
+    },
+    {
+      "name": "file:server/pvx-displacement-core.mjs",
+      "pass": true
+    },
+    {
+      "name": "file:server/pvx-producer-action-queue-core.mjs",
+      "pass": true
+    },
+    {
+      "name": "contains:server/pvx-displacement-core.mjs:within_30:'immediate'",
+      "pass": true
+    },
+    {
+      "name": "contains:server/pvx-producer-action-queue-core.mjs:numericLeadScore:null",
+      "pass": true
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

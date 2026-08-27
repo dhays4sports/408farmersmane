@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-3.0",
+  "requiredFiles": [
+    "assets/js/displacement-analytics.js",
+    "assets/js/pvx-consumer-events.js",
+    "server/pvx-event-core.mjs",
+    "contracts/CF_DISP_MEASUREMENT_CONTRACT.json"
+  ],
+  "contains": [
+    {
+      "file": "server/pvx-event-core.mjs",
+      "needle": "disp_landing_view"
+    },
+    {
+      "file": "server/pvx-event-core.mjs",
+      "needle": "producer_conversation_completed"
+    },
+    {
+      "file": "server/pvx-event-core.mjs",
+      "needle": "policy_bound"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

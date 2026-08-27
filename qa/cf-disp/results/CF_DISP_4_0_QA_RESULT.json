@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-4.0",
+  "executedAt": "2026-08-24T22:05:00.178Z",
+  "checks": [
+    {
+      "name": "file:nonrenewal/safeco/index.html",
+      "pass": true
+    },
+    {
+      "name": "file:cf-disp/CARRIER_FACT_REGISTRY.json",
+      "pass": true
+    },
+    {
+      "name": "contains:nonrenewal/safeco/index.html:Safeco nonrenewal in California: the important distinctions",
+      "pass": true
+    },
+    {
+      "name": "contains:nonrenewal/safeco/index.html:Can CoverageFit tell me if Farmers will accept the property?",
+      "pass": true
+    },
+    {
+      "name": "contains:cf-disp/CARRIER_FACT_REGISTRY.json:sourceUrl",
+      "pass": true
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

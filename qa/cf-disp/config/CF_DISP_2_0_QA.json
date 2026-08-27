@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-2.0",
+  "requiredFiles": [
+    "contracts/CF_DISP_ROUTING_CONTRACT.json",
+    "server/pvx-displacement-core.mjs",
+    "server/pvx-producer-action-queue-core.mjs"
+  ],
+  "contains": [
+    {
+      "file": "server/pvx-displacement-core.mjs",
+      "needle": "within_30:'immediate'"
+    },
+    {
+      "file": "server/pvx-producer-action-queue-core.mjs",
+      "needle": "numericLeadScore:null"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

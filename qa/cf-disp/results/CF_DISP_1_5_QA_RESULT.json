@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-1.5",
+  "executedAt": "2026-08-24T22:05:00.171Z",
+  "checks": [
+    {
+      "name": "file:assets/js/displacement-context.js",
+      "pass": true
+    },
+    {
+      "name": "file:assets/js/pvx-checkpoint.js",
+      "pass": true
+    },
+    {
+      "name": "file:assets/js/pvx-checkpoint-view.js",
+      "pass": true
+    },
+    {
+      "name": "file:server/pvx-checkpoint-core.mjs",
+      "pass": true
+    },
+    {
+      "name": "file:assets/js/assessment-engine.js",
+      "pass": true
+    },
+    {
+      "name": "contains:assets/js/displacement-context.js:prefilledQuestionIds",
+      "pass": true
+    },
+    {
+      "name": "contains:assets/js/displacement-context.js:shoppingReason",
+      "pass": true
+    },
+    {
+      "name": "contains:server/pvx-checkpoint-core.mjs:displacementContext",
+      "pass": true
+    }
+  ],
+  "passed": 8,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

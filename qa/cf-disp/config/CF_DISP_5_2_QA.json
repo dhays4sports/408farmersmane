@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-5.2",
+  "requiredFiles": [
+    "CF_DISP_FOCUSED_QA.mjs",
+    "CF_DISP_BUILD.json",
+    "cf-disp/baseline/PROTECTED_HASHES_FINAL.sha256"
+  ],
+  "contains": [
+    {
+      "file": "CF_DISP_BUILD.json",
+      "needle": "CF-DISP-5.2"
+    },
+    {
+      "file": "CF_DISP_FOCUSED_QA.mjs",
+      "needle": "same-state queue prioritizes operational urgency"
+    },
+    {
+      "file": "cf-disp/baseline/PROTECTED_HASHES_FINAL.sha256",
+      "needle": "assets/js/protection-score.js"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-3.2",
+  "requiredFiles": [
+    "campaigns/google-ads/CAMPAIGN_STRUCTURE.csv",
+    "campaigns/google-ads/KEYWORDS.csv",
+    "campaigns/google-ads/NEGATIVE_KEYWORDS.txt",
+    "campaigns/google-ads/RSA_COPY.csv",
+    "campaigns/google-ads/GOOGLE_ADS_LAUNCH_RUNBOOK.md",
+    "campaigns/google-ads/CAMPAIGN_SETTINGS.csv",
+    "campaigns/google-ads/SITELINKS_CALLOUTS.csv",
+    "campaigns/google-ads/CONVERSION_MAP.csv",
+    "campaigns/google-ads/UTM_CONVENTIONS.md",
+    "campaigns/google-ads/SEARCH_TERM_REVIEW_TEMPLATE.csv",
+    "campaigns/google-ads/LAUNCH_CHECKLIST.md"
+  ],
+  "contains": [
+    {
+      "file": "campaigns/google-ads/GOOGLE_ADS_LAUNCH_RUNBOOK.md",
+      "needle": "Search only"
+    },
+    {
+      "file": "campaigns/google-ads/KEYWORDS.csv",
+      "needle": "safeco"
+    },
+    {
+      "file": "campaigns/google-ads/RSA_COPY.csv",
+      "needle": "Home Insurance Nonrenewal"
+    },
+    {
+      "file": "campaigns/google-ads/KEYWORDS.csv",
+      "needle": "insurance after safeco nonrenewal"
+    },
+    {
+      "file": "campaigns/google-ads/RSA_COPY.csv",
+      "needle": "CoverageFit Nonrenewal Help"
+    },
+    {
+      "file": "campaigns/google-ads/CONVERSION_MAP.csv",
+      "needle": "policy_bound,Policy Bound"
+    },
+    {
+      "file": "campaigns/google-ads/UTM_CONVENTIONS.md",
+      "needle": "gclid"
+    },
+    {
+      "file": "campaigns/google-ads/LAUNCH_CHECKLIST.md",
+      "needle": "Search Network only"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

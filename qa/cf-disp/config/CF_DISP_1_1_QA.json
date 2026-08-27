@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-1.1",
+  "requiredFiles": [
+    "assets/js/attribution.js",
+    "contracts/CF_DISP_CONTEXT_CONTRACT.json"
+  ],
+  "contains": [
+    {
+      "file": "assets/js/attribution.js",
+      "needle": "gclid"
+    },
+    {
+      "file": "assets/js/attribution.js",
+      "needle": "gbraid"
+    },
+    {
+      "file": "assets/js/attribution.js",
+      "needle": "wbraid"
+    },
+    {
+      "file": "assets/js/attribution.js",
+      "needle": "gclsrc"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

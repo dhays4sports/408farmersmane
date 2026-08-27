@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-3.1",
+  "requiredFiles": [
+    "server/displacement-conversion-core.mjs",
+    "campaigns/google-ads/GOOGLE_MEASUREMENT_IMPLEMENTATION.md",
+    "campaigns/google-ads/DATA_MANAGER_TEMPLATE.csv"
+  ],
+  "contains": [
+    {
+      "file": "server/displacement-conversion-core.mjs",
+      "needle": "disp_contact_requested:'Lead'"
+    },
+    {
+      "file": "server/displacement-conversion-core.mjs",
+      "needle": "Qualified Lead"
+    },
+    {
+      "file": "campaigns/google-ads/GOOGLE_MEASUREMENT_IMPLEMENTATION.md",
+      "needle": "Data Manager"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

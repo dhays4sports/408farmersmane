@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-2.1",
+  "requiredFiles": [
+    "nonrenewal/index.html",
+    "nonrenewal/safeco/index.html",
+    "assets/js/displacement-intake.js",
+    "server/pvx-checkpoint-core.mjs"
+  ],
+  "contains": [
+    {
+      "file": "assets/js/displacement-intake.js",
+      "needle": "contactConsent!=='on'"
+    },
+    {
+      "file": "assets/js/displacement-intake.js",
+      "needle": "channelConsent"
+    },
+    {
+      "file": "server/pvx-checkpoint-core.mjs",
+      "needle": "report_save_required"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

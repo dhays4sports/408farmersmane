@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-3.1",
+  "executedAt": "2026-08-24T22:05:00.177Z",
+  "checks": [
+    {
+      "name": "file:server/displacement-conversion-core.mjs",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/GOOGLE_MEASUREMENT_IMPLEMENTATION.md",
+      "pass": true
+    },
+    {
+      "name": "file:campaigns/google-ads/DATA_MANAGER_TEMPLATE.csv",
+      "pass": true
+    },
+    {
+      "name": "contains:server/displacement-conversion-core.mjs:disp_contact_requested:'Lead'",
+      "pass": true
+    },
+    {
+      "name": "contains:server/displacement-conversion-core.mjs:Qualified Lead",
+      "pass": true
+    },
+    {
+      "name": "contains:campaigns/google-ads/GOOGLE_MEASUREMENT_IMPLEMENTATION.md:Data Manager",
+      "pass": true
+    }
+  ],
+  "passed": 6,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

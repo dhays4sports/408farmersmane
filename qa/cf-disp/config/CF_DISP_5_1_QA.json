@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-5.1",
+  "requiredFiles": [
+    "assets/css/displacement.css",
+    "assets/js/displacement-intake.js",
+    "server/pvx-displacement-core.mjs",
+    "CF_DISP_FOCUSED_QA.mjs"
+  ],
+  "contains": [
+    {
+      "file": "assets/css/displacement.css",
+      "needle": "@media(max-width:360px)"
+    },
+    {
+      "file": "assets/css/displacement.css",
+      "needle": "prefers-reduced-motion"
+    },
+    {
+      "file": "nonrenewal/index.html",
+      "needle": "aria-live"
+    },
+    {
+      "file": "server/pvx-displacement-core.mjs",
+      "needle": "postalCode"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-5.2",
+  "executedAt": "2026-08-24T22:05:00.179Z",
+  "checks": [
+    {
+      "name": "file:CF_DISP_FOCUSED_QA.mjs",
+      "pass": true
+    },
+    {
+      "name": "file:CF_DISP_BUILD.json",
+      "pass": true
+    },
+    {
+      "name": "file:cf-disp/baseline/PROTECTED_HASHES_FINAL.sha256",
+      "pass": true
+    },
+    {
+      "name": "contains:CF_DISP_BUILD.json:CF-DISP-5.2",
+      "pass": true
+    },
+    {
+      "name": "contains:CF_DISP_FOCUSED_QA.mjs:same-state queue prioritizes operational urgency",
+      "pass": true
+    },
+    {
+      "name": "contains:cf-disp/baseline/PROTECTED_HASHES_FINAL.sha256:assets/js/protection-score.js",
+      "pass": true
+    }
+  ],
+  "passed": 6,
+  "failed": 0,
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs (27/27 passed in integrated candidate)"
+}

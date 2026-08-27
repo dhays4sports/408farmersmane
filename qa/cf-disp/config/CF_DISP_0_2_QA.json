@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "sprint": "CF-DISP-0.2",
+  "requiredFiles": [
+    "cf-disp/CARRIER_FACT_REGISTRY.json",
+    "nonrenewal/safeco/index.html"
+  ],
+  "contains": [
+    {
+      "file": "cf-disp/CARRIER_FACT_REGISTRY.json",
+      "needle": "forbiddenUnsupportedClaims"
+    },
+    {
+      "file": "nonrenewal/safeco/index.html",
+      "needle": "not affiliated with Safeco or Liberty Mutual"
+    }
+  ],
+  "globalBehaviorSuite": "CF_DISP_FOCUSED_QA.mjs"
+}
